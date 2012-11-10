@@ -1,9 +1,12 @@
 
 #header{
+	position: relative;
 	.lwper-header-ad{
-		float: right;
+		position: absolute;
 		width: 468px;
-		overflow: auto;
-		margin: 10px 0;
+		heihgt: 60px;
+		overflow: hidden;
+		right: 0;
+		top: 35px;
 	}
 }

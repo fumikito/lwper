@@ -1,7 +1,13 @@
-/* line 3, ../sass/screen.scss */
+/* line 2, ../sass/screen.scss */
+#header {
+  position: relative;
+}
+/* line 4, ../sass/screen.scss */
 #header .lwper-header-ad {
-  float: right;
+  position: absolute;
   width: 468px;
-  overflow: auto;
-  margin: 10px 0;
+  heihgt: 60px;
+  overflow: hidden;
+  right: 0;
+  top: 35px;
 }
