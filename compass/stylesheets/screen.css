@@ -1,0 +1,7 @@
+/* line 3, ../sass/screen.scss */
+#header .lwper-header-ad {
+  float: right;
+  width: 468px;
+  overflow: auto;
+  margin: 10px 0;
+}
