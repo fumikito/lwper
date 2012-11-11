@@ -21,3 +21,14 @@ function _lwper_post_order($order){
 	remove_filter('posts_orderby', '_lwper_post_order');
 	return " {$wpdb->posts}.post_title ASC";
 }
+
+/**
+ * タイトルタグをカスタマイズ
+ * @param string $title
+ * @param string $sep
+ * @return string
+ */
+function _lwper_wp_title($title, $sep){
+	return $title.get_bloginfo('description')." {$sep} ";
+}
+add_filter('wp_title', '_lwper_wp_title', 10, 2);
