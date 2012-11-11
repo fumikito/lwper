@@ -3,7 +3,7 @@
 /**
  * ヘッダーにGoogle Adsenseを出力する
  */
-function _lwper_echo_header(){
+function _lwper_echo_header(){	
 	if(!(function_exists('wp_is_mobile') && wp_is_mobile())){
 		echo '<div class="lwper-header-ad">';
 		dynamic_sidebar('sidebar-header-ads');
@@ -26,3 +26,5 @@ register_sidebar(array(
 	'after_title' => '',
 ));
 add_action('init', '_lwper_adsense_sidebar');
+
+add_action();
