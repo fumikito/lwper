@@ -1,8 +1,13 @@
-/* line 2, ../sass/screen.scss */
+/* line 1, ../sass/screen.scss */
+body {
+  background: #dcdcdc url("../../images/body-bg.gif") left top repeat;
+}
+
+/* line 5, ../sass/screen.scss */
 #header {
   position: relative;
 }
-/* line 4, ../sass/screen.scss */
+/* line 7, ../sass/screen.scss */
 #header .lwper-header-ad {
   position: absolute;
   width: 468px;
