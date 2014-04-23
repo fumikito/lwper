@@ -3,6 +3,7 @@ if(!defined('ABSPATH')) exit;
 
 if( false ){
 	// ログ用
+	// メールが来ないぞ....
 }
 
 get_template_part('functions/adsense');
