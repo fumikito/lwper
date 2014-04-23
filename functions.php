@@ -4,6 +4,7 @@ if(!defined('ABSPATH')) exit;
 if( false ){
 	// ログ用
 	// メールが来ないぞ....
+	// 最後のテストなんでだろう...
 }
 
 get_template_part('functions/adsense');
