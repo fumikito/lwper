@@ -1,6 +1,9 @@
 <?php
 if(!defined('ABSPATH')) exit;
 
+if( false ){
+	// ログ用
+}
 
 get_template_part('functions/adsense');
 get_template_part('functions/adminbar');
